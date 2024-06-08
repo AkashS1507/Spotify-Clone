@@ -268,3 +268,33 @@ a {
     font-size: 1.25rem;
     margin: 0 0.85rem;
 }
+
+@media (max-width:1250px) {
+    .controls {
+        display: none;
+    }
+    .player {
+        width: 75%;
+    }
+    .album i {
+        display: none;
+    }
+}
+
+@media (max-width:825px) {
+    .album {
+        width: 30%;
+    }
+    .player {
+        width: 70%;
+    }
+}
+
+@media (max-width:685px) {
+    .album {
+        display: none;
+    }
+    .player {
+        width: 100%;
+    }
+}
